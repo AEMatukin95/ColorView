@@ -123,7 +123,7 @@
                         <outlet property="blueLabel" destination="ZeX-9y-HFM" id="vLJ-as-1Uy"/>
                         <outlet property="blueSlider" destination="Gme-47-pa0" id="YPE-Md-S2N"/>
                         <outlet property="colorView" destination="95D-Js-vkL" id="bZe-FN-iRq"/>
-                        <outlet property="greenLabel" destination="ZeX-9y-HFM" id="h9v-3B-vfc"/>
+                        <outlet property="greenLabel" destination="Qog-x4-hm6" id="f7d-Em-fqA"/>
                         <outlet property="greenSlider" destination="cUl-yE-6YK" id="B2o-js-kQ7"/>
                         <outlet property="redLabel" destination="5Cm-af-lw9" id="DZp-BM-Dny"/>
                         <outlet property="redSlider" destination="JXs-0w-Ce6" id="sPw-GN-cVa"/>

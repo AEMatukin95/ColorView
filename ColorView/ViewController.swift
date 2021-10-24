@@ -12,12 +12,13 @@ class ViewController: UIViewController {
     @IBOutlet var colorView: UIView!
     
     @IBOutlet var redLabel: UILabel!
-    @IBOutlet var greenLabel: UILabel!
     @IBOutlet var blueLabel: UILabel!
+    @IBOutlet var greenLabel: UILabel!
     
     @IBOutlet var redSlider: UISlider!
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
+    
     
     
     override func viewDidLoad() {
@@ -44,12 +45,12 @@ class ViewController: UIViewController {
     
     @IBAction func greenSliderAction() {
         viewColors()
-        greenLabel.text = String(greenSlider.value)
+        greenLabel.text = String(format: "%.2f", greenSlider.value)
     }
     
     @IBAction func blueSliderAction(_ sender: Any) {
         viewColors()
-        blueLabel.text = String(blueSlider.value)
+        blueLabel.text = String(format: "%.2f", blueSlider.value)
     }
     
 
