@@ -27,11 +27,10 @@ class ViewController: UIViewController {
         redSlider.tintColor = .red
         greenSlider.tintColor = .green
         blueSlider.tintColor = .blue
-        redSlider.minimumValue = 0
-        redSlider.maximumValue = 1
+        viewColors()
     }
 
-    func viewColors() {
+    private func viewColors() {
         colorView.backgroundColor = UIColor(red: CGFloat(redSlider.value),
                                             green: CGFloat(greenSlider.value),
                                             blue: CGFloat(blueSlider.value),
