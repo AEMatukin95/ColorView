@@ -97,7 +97,7 @@ extension ColorViewController: UITextFieldDelegate {
         guard let newValue = textField.text else { return }
         guard let numberValue = Float(newValue) else { return }
         if numberValue > 1.1 || numberValue < -0.1 {
-            showAlert(title: "Ooops!", message: "Enter a value from 0 to 1.")
+            showAlert(title: "Ooops!", message: "Enter a value from 0.0 to 1.0.")
         }
         if textField == redTextField {
             redSlider.value = numberValue
